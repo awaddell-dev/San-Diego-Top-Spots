@@ -113,7 +113,7 @@ function buildRow(spot) {
       : mapsUrl;
 
   const distanceText = 
-    spot.distanceMiles == null ? "—" : spot.distanceMiles.toFixed(1);
+    spot.distanceMiles == null ? "—" : `${spot.distanceMiles.toFixed(1)} mi`;
 
   const $row = $("<tr></tr>");
   $row.append($("<td></td>").text(name));
