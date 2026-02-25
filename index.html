@@ -1,14 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>San Diego Top Spots</title>
 </head>
 
 <body>
-    <!-- Write your markup here -->
-
-    <!-- Don't forget to add your <script> tag here -->
+    <div class="container">
+    <h1>San Diego Top Spots</h1>
+    <div id="map" style="height: 420px; width: 100%; margin-bottom: 16px;"></div>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Link</th>
+                <th>Distance (mi)</th>
+            </tr>
+        </thead>
+        <tbody id="top-spots-body"></tbody>
+    </table>
+    </div>
+    <!-- Security best practices with "integrity" and privacy best practices with "crossorigin" -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> 
+    <script src="main.js"></script>
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIzc_WbMlfzSLg3j13qZdO5Q-JfV-GTL4&callback=initMap"
+    async
+    defer
+  ></script>
 </body>
 
 </html>
