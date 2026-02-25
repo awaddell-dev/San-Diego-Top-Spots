@@ -134,5 +134,8 @@ cd San-Diego-Top-Spots
 
 ## Author
 
-Alex Waddell  
-GitHub: https://github.com/awaddell-dev
+* Alex Waddell
+* Software Development Student: California Institute of Applied Technology
+* Software Development Intern: Creating Coding Careers   
+* GitHub: https://github.com/awaddell-dev
+* LinkedIn: linkedin.com/in/alex-waddell-5082a429b
